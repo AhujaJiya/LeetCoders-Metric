@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(83, 21, 21);
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2 rem;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px #69696958;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2 rem;
+}
+
+.user_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+}
+
+.user_input_container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+#user_input {
+    width: 70%;
+    padding: 0.3rem;
+}
+
+#search_button {
+    width: 20%;
+    padding: 0.3rem;
+    border-radius: 5px;
+    
+}
+
+.stats_container {
+    margin: 1rem;
+    display: none;
+}
+
+.circle {
+    background-color: grey;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.easy_circle {
+    border: 4px solid rgb(11, 94, 27);
+    color: rgb(11, 94, 27);
+    background: conic-gradient(#1eb35f var(--progress-degree, 0%), #9bd3ae 0%);
+}
+
+.medium_circle {
+    border: 4px solid rgb(157, 110, 9);
+    color: rgb(157, 110, 9);
+    background: conic-gradient(#e2bb1e var(--progress-degree, 0%), #eeee93 0%);
+}
+
+.hard_circle {
+    border: 4px solid rgb(157, 9, 9);
+    color: rgb(157, 9, 9);
+    background: conic-gradient(#cb5252 var(--progress-degree, 0%), #f2c1c1 0%);
+}
+
+
+.circle span {
+    position: relative;
+    z-index: 2;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stats_card{
+    display: flex;
+    gap: 10px;
+    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(83, 21, 21);
+    box-shadow: 5px 5px rgba(12, 12, 12, 0.125);
+    color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+}
