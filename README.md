@@ -1,6 +1,6 @@
 # LeetCoders-Metric
 
-## LeetCoders Metric is a web application that allows users to view LeetCode stats like total solved problems, ranking, and acceptance rate by entering their LeetCode username.
+LeetCoders Metric is a web application that allows users to view LeetCode stats like total solved problems, ranking, and acceptance rate by entering their LeetCode username.
 
 ### Features: 
 
